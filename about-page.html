@@ -1,0 +1,30 @@
+<head>
+<link rel="stylesheet" href="globals.css" />
+<link rel="stylesheet" href="styleguide.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="about-section">
+    <div class="header-content">
+    <div class="title-subtitle">
+        <div class="text-wrapper">Branding | Image making</div>
+        <div class="div">Chloe Cox</div>
+        <p class="this-is-a-template">
+        This is a template Figma file, turned into code using Anima. <br />Learn more at AnimaApp.com
+        </p>
+    </div>
+    <a href="https://www.animaapp.com" target="_blank" rel="noopener noreferrer"
+        ><div class="button"><div class="text-wrapper-2">Contact</div></div></a
+    >
+    </div>
+    <img class="headerimage" src="img/headerimage-1.png" />
+</div>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+$("#nav-holder").replaceWith(data);
+});
+$.get("footer.html", function(data){
+$("#footer-holder").replaceWith(data);
+});
+</script>  
